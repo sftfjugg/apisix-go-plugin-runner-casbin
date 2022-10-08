@@ -1,0 +1,18 @@
+db:
+  type: postgres
+  dsn: host=192.168.31.94 user=postgres password=123456 dbname=orion port=5432 sslmode=disable TimeZone=Asia/Shanghai
+  maxOpenConn: 20000
+  maxIdleConn: 0
+  connMaxLifetime: 60
+jwt:
+  secret: 7c61aa49bd124736917207eb960cede9
+casbin:
+  rbacModel: /usr/local/apisix/plugin/go-runner/config/rbac_model.conf
+  tableName: system_casbin_rule
+  isTiming: false
+  intervalTime: 120
+redis:
+  host: 192.168.31.94
+  port: 6379
+  password: 123456
+  db: 4
