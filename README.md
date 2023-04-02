@@ -101,3 +101,5 @@ Notice that we specify the socket address to be used for `go-runner` communicati
 ## License
 
 Apache 2.0 LICENSE
+
+http://www.fdevops.com/2022/10/09/casbin-apisix-31182
